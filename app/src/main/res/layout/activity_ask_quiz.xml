@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/myColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.austinegwa64.myrevisionapp.AskQuiz">
+
+
+    <TextView
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posts your  question" />
+
+    <EditText
+        style="@style/inputs"
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:hint="Title (be specific to your problem)" />
+
+    <EditText
+        style="@style/inputs"
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="describe your problem in details"
+        android:inputType="textMultiLine" />
+
+
+
+    <Spinner
+
+        style="@style/inputs"
+        android:id="@+id/tag"
+        android:entries="@array/tags"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <CheckBox
+        style="@style/inputs"
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remain anonymous" />
+
+    <ImageButton
+        style="@style/inputs"
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_a_photo_black_24dp"
+        />
+
+    <Button
+       style="@style/inputs"
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+</LinearLayout>
+</ScrollView>

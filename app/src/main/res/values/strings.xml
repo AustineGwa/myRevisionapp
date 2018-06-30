@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">my Revision  app</string>
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_1">Videos</string>
+    <string name="tab_text_2">past papers</string>
+    <string name="tab_text_3">Post Quiz </string>
+    <string name="tab_text_4">Chart</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="user_name">User name</string>
+    <string name="Pass">password</string>
+    <string name="login">login</string>
+    <string name="signup">sign_up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">logout</string>
+
+    <string-array name="tags">
+        <item>select tag</item>
+        <item>java</item>
+        <item>android</item>
+        <item>c++</item>
+        <item>mathematics</item>
+        <item>html</item>
+        <item>networks</item>
+        <item>php</item>
+        <item>others</item>
+    </string-array>
+
+    <string name="quiz_disclaimer">
+        <![CDATA[
+
+        <body bgColor="grey">
+        <h2 color="red">Disclaimer ! </h2> <br/>
+        <em> Before asking a question always check the <strong> FAQs  </strong> section to check if the
+        answers to your problem already exists. This will  save you more time.<br/><br/>
+        Use appropriate tags to make your questions as specific as possible as this will help the
+        Instructors to handle your questions faster and satifactorily. </em> <br/> <br/>
+
+        if you want to recieve answers privately and remain anonymous in the system,
+        mark the checkboxes appropriatly. <br/> <br/>
+
+        Remember someone else maybe having the same problem as yours therefore sharing your solutions
+        may help others also to learn.<br/><br/>
+
+        <strong> NO </strong > field should be left blank for your questions to be submited. <br/> <br/>
+
+        <strong> Jokers </jokers> will be automaticaly ignored and their accounts suspended .</em><br/><br/>
+
+        <strong> asked questions should be answerd within 30 minutes </strong>
+
+        <p> Thank you  for being Responsible in the system </p>
+
+        </body>
+        ]]>
+
+
+
+    </string>
+    <string name="my_instructors">Instructors</string>
+
+    <string name="title_activity_video_tv">VideoTv</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="charts">action_charts</string>
+    <string name="faqs">FAQs</string>
+</resources>

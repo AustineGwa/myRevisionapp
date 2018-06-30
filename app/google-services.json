@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "477622258184",
+    "firebase_url": "https://myrevisionapp.firebaseio.com",
+    "project_id": "myrevisionapp",
+    "storage_bucket": "myrevisionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477622258184:android:55eb54927240068b",
+        "android_client_info": {
+          "package_name": "com.austinegwa64.myrevisionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477622258184-48aa01qkqfl1p4inb9fhad1vbt6nudf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.austinegwa64.myrevisionapp",
+            "certificate_hash": "7c9c6cd48035a46233cf83a36977cbaab7cd4565"
+          }
+        },
+        {
+          "client_id": "477622258184-6ihpvfc9q4jddu63iv5826ht9r8dlkpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY09FtsB_FSEmuBHZjprkDnJCxigAEYPk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477622258184-6ihpvfc9q4jddu63iv5826ht9r8dlkpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
